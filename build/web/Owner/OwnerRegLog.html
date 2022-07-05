@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Owner- Signup and Login</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap"
+          rel="stylesheet"
+        />
+      </head>
+      <body>
+        <div class="main">
+          <input type="checkbox" id="chk" aria-hidden="true" />
+
+          <div class="signup">
+              <form method="post" style="margin-bottom: 40%">
+              <label for="chk" aria-hidden="true">Signup for Tournaments Owner</label>
+              <input type="text" name="name" placeholder="Name" required="" />
+              <input
+                type="text"
+                name="middlename"
+                placeholder="Middle Name"
+                required=""
+              />
+              <input
+                type="text"
+                name="surname"
+                placeholder="Surname"
+                required=""
+              />
+              <input
+                type="text"
+                name="username"
+                placeholder="Username"
+                required=""
+              />
+              <input
+                type="password"
+                name="password"
+                placeholder="Password"
+                required=""
+              />
+              <input
+                type="text"
+                name="mobileno"
+                placeholder="Contact No."
+                required=""
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="Email Address"
+                required=""
+              />
+              <input
+                type="text"
+                name="address"
+                placeholder="Address"
+                required=""
+              />
+              <select>
+                <option>--Select Question--</option>
+                <option>What is your favourite sports?</option>
+                <option>What is your dream job?</option>
+              </select>
+              <input
+                type="text"
+                name="sq1"
+                placeholder="Answer"
+                required=""
+              />
+              <select>
+                <option>--Select Question--</option>
+                <option>What is your favourite sports?</option>
+                <option>What is your dream job?</option>
+              </select>
+              <input
+                type="text"
+                name="sq2"
+                placeholder="Answer"
+                required=""
+              />
+              <button formaction="RegisterOwner.jsp">Sign up</button>
+            </form>
+          </div>
+
+          <div class="login">
+            <form>
+              <label for="chk" aria-hidden="true">Login</label>
+              <input
+                type="text"
+                name="username"
+                placeholder="Username"
+                required=""
+              />
+              <input
+                type="password"
+                name="password"
+                placeholder="Password"
+                required=""
+              />
+			  <a style="margin-left: 30%;" href="#" >Forgot Password?</a>
+              <button formaction="LoginOwner.jsp">Login</button>
+            </form>
+          </div>
+        </div>
+      </body>
+    </html>
+  </body>
+</html>
