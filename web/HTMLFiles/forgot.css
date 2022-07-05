@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: gray;
+    font-family: "Jost", sans-serif;
+  }
+  header {
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .mainHeading {
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-right: -37%;
+  }
+  .headingNav {
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: -37%;
+    margin-top: 1%;
+    width: 9vw;
+  }
+
+  .navLink {
+    text-decoration: underline ;
+    color: white;
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .tounamentForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40vw;
+    margin: 6rem 31vw;
+    color: white;
+    background-color: rgb(58 54 54);
+  }
+  
+  .inputBox {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem;
+    
+  }
+
+  label {
+    padding: 1rem;
+  }
+
+  input,
+button {
+  box-sizing: border-box;
+  padding: 1rem;
+  width: 40%;
+  right: 0;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+  border-radius: 5px;
+  justify-content: center;
+}

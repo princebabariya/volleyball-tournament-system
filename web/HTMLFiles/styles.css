@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: gray;
+  font-family: "Jost", sans-serif;
+}
+header {
+  padding: 1rem;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.headers {
+  position: absolute;
+  top: 4%;
+  left: 3.9%;
+  width: 70vw;
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+.mainHeading {
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin-right: -50%;
+}
+.headingNav {
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: -34%;
+  margin-top: 1%;
+  width: 9vw;
+}
+
+
+.teambutton {
+  position: absolute;
+  right: 1%;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  margin-right: 73%;
+  margin-top: 2%;
+  margin-left: 1%;
+  /* width: -1%; */
+  font-size: 150%;
+  background-color: rgb(27, 26, 26);
+  color: black;
+  border: 2px solid #555555;
+
+
+}
+
+.navLink {
+  text-decoration: underline ;
+  color: white;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.sidebar {
+  height: 100vh;
+  background-color: rgb(46, 41, 41);
+  padding: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  height: 100%;
+  overflow: auto;
+}
+
+li span {
+  display: block;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
+
+li span.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+li span:hover:not(.active) {
+  background-color: #555;
+  color: white;
+  cursor: pointer;
+}
+
+.tounamentForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40vw;
+  margin: 3rem 20vw;
+  color: white;
+  background-color: rgb(58 54 54);
+}
+
+.inputBox {
+  /* width: 100%; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1rem;
+  
+}
+
+label {
+  padding: 1rem;
+}
+input,
+button {
+  box-sizing: border-box;
+  padding: 1rem;
+  width: 40%;
+  right: 0;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+  border-radius: 5px;
+  justify-content: center;
+}
+
+.todisplay {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.tournmentBlock {
+  background-color: rgb(58 54 54);
+  color: white;
+  padding: 1rem;
+  margin: 1rem;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.displaytable{
+    
+    border-collapse: collapse;
+  width: 100%;
+  th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+tr:hover {background-color: coral;}
+}
+
+table, th, td {  
+    border: 1px solid black;  
+    border-collapse: collapse;  
+}  
+th, td {  
+    padding: 10px;  
+}  
+table#alter tr:nth-child(even) {  
+    background-color: #eee;  
+}  
+table#alter tr:nth-child(odd) {  
+    background-color: #fff;  
+}  
+table#alter th {  
+    color: white;  
+    background-color: gray;  
+}  
